@@ -28,6 +28,8 @@ class PopMenuViewController: NSViewController {
     private var topFive4Label : NSTextField!
     private var topFive5Label : NSTextField!
     
+    private var descriptionLabe : NSTextField!
+    
     private var detectingFrontMostAppTimer = Timer()
     private var timeIntervalForDetecing = 1.0
     
@@ -141,10 +143,14 @@ class PopMenuViewController: NSViewController {
         self.view.addSubview(quitButton)
         
         
+        
+        
         // label
         topFiveLabel = NSTextField(frame: NSRect(x: self.view.frame.origin.x+15, y: self.view.frame.origin.y+230, width: 150, height: 20))
         topFiveLabel.isEditable = false
         self.view.addSubview(topFiveLabel)
+        
+        
         
         topFive1Label = NSTextField(frame: NSRect(x: self.view.frame.origin.x+15, y: self.view.frame.origin.y+200, width: 150, height: 20))
         topFive1Label.isBezeled = true

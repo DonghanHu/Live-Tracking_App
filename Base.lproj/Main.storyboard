@@ -686,7 +686,7 @@
             <objects>
                 <viewController storyboardIdentifier="PopMenuViewController" id="XfG-lQ-9wD" customClass="PopMenuViewController" customModule="Live_Tracking_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="200" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="350"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                 </viewController>
